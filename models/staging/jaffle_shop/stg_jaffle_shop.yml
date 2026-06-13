@@ -8,7 +8,9 @@ models:
           - unique
           - not_null
       - name: first_name
+        description: Customer's given name.
       - name: last_name
+        description: Customer's family name.
   - name: stg_jaffle_shop__orders
     description: One order per row. 
     columns:
